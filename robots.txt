@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gominttuk.heart-record.com/sitemap.xml

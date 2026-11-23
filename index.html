@@ -6,12 +6,33 @@
     <!-- 이미 어두운 화면이라는 표시. 없으면 휴대폰 브라우저가 화면을 한 번 더 어둡게 바꿔 색이 칙칙해진다 -->
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#0e0f13" />
-    <meta name="robots" content="noindex, nofollow" />
+    <!-- 검색 결과와 링크 미리보기에 나오는 글. 실제 가게가 들어오면 "지금은 시제품" 문장을 뺀다.
+         주소가 들어가는 표시(대표 주소 등)는 올리는 도구(도구/3_공개주소_올리기.mjs)가 넣는다 -->
+    <meta name="description" content="세종 나성동에서 갈 곳을 못 정할 때 쓰는 고민뚝. 서비스 주는 제휴 가게를 모아 보고 룰렛·사다리·다트로 한 곳을 정합니다. 지금은 시제품이라 가게와 서비스는 예시입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="고민뚝" />
+    <meta property="og:title" content="고민뚝" />
+    <meta property="og:description" content="세종 나성동에서 갈 곳을 못 정할 때 쓰는 고민뚝. 서비스 주는 제휴 가게를 모아 보고 룰렛·사다리·다트로 한 곳을 정합니다. 지금은 시제품이라 가게와 서비스는 예시입니다." />
+    <link rel="canonical" href="https://gominttuk.heart-record.com/" />
+    <meta property="og:url" content="https://gominttuk.heart-record.com/" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"고민뚝","alternateName":"gominttuk","url":"https://gominttuk.heart-record.com/"}</script>
     <title>고민뚝</title>
-    <script type="module" crossorigin src="./assets/index-BnyQkWIX.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CRYrUVkZ.css">
+    <script type="module" crossorigin src="./assets/index-C12diGpC.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Ba03g4HB.css">
   </head>
   <body>
-    <div id="root"></div>
+    <!-- #root 안의 글은 앱이 켜지기 전과 가게 목록을 불러오는 동안 보이는 화면이고, 화면을 그리지 못하는 검색 로봇이 읽는 소개 글이다.
+         앱이 켜지면 이 자리를 앱 화면이 대신한다. 첫 화면 머리 부분(Home.tsx)과 같은 모양으로 맞춰 두었다 -->
+    <div id="root"><div class="screen">
+        <header class="top">
+          <div>
+            <h1 class="brand">고민뚝</h1>
+            <span class="brand-sub">나성동 · 이 화면 보여 주면 서비스</span>
+          </div>
+        </header>
+        <p class="boot-text">세종 나성동에서 갈 곳을 못 정할 때 쓰는 앱입니다. 서비스 주는 제휴 가게를 모아 보고, 룰렛·사다리·다트로 한 곳을 정합니다. 가게에서 직원에게 가게 화면을 보여 주면 적힌 서비스를 받습니다.</p>
+        <p class="boot-text">지금은 시제품입니다. 가게와 서비스는 지어낸 예시입니다.</p>
+      </div></div>
   </body>
 </html>
