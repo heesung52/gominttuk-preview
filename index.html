@@ -16,17 +16,24 @@
     <meta property="og:description" content="세종 나성동에서 갈 곳을 못 정할 때 쓰는 고민뚝. 서비스 주는 제휴 가게를 모아 보고 룰렛·사다리·다트로 한 곳을 정합니다. 지금은 시제품이라 '예시' 표시가 붙은 가게와 서비스는 예시입니다." />
     <!-- 네이버 서치어드바이저의 소유확인 표시(2026-11-23에 희성님이 받아 옴). 빼면 네이버 등록이 풀릴 수 있다 -->
     <meta name="naver-site-verification" content="c92e3e3b88a290749b59b0c0e45185e443722a9f" />
+    <!-- 홈 화면에 아이콘으로 놓을 때 쓰는 정보. 안드로이드 크롬은 manifest를, 아이폰은 apple-touch-icon과 아래 이름을 읽는다.
+         첫 화면 맨 위의 "홈 화면에 추가" 버튼(src/components/InstallButtons.tsx)이 이것을 쓴다 -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="48x48" href="./icons/favicon-48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="고민뚝" />
     <link rel="canonical" href="https://gominttuk.heart-record.com/" />
     <meta property="og:url" content="https://gominttuk.heart-record.com/" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"고민뚝","alternateName":"gominttuk","url":"https://gominttuk.heart-record.com/"}</script>
     <title>고민뚝</title>
-    <script type="module" crossorigin src="./assets/index-CNp0Tb3P.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-R5pC8NLf.css">
+    <script type="module" crossorigin src="./assets/index-DDII8DtC.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-_HxotZ8a.css">
   </head>
   <body>
     <!-- #root 안의 글은 앱이 켜지기 전과 가게 목록을 불러오는 동안 보이는 화면이고, 화면을 그리지 못하는 검색 로봇이 읽는 소개 글이다.
          앱이 켜지면 이 자리를 앱 화면이 대신한다. 첫 화면 머리 부분(Home.tsx)과 같은 모양으로 맞춰 두었다 -->
     <div id="root"><div class="screen">
+        <div class="install-row" aria-hidden="true"></div>
         <header class="top">
           <div>
             <h1 class="brand">고민뚝</h1>
