@@ -167,7 +167,7 @@
     "kind": "술",
     "genre": "포차·주점",
     "benefit": "토피넛 아이스크림",
-    "benefitPhoto": "",
+    "benefitPhoto": "photos/homac-toffeenut-icecream.jpg",
     "storePhoto": "photos/homac-store.jpg",
     "cond": "4만 원 이상 주문 시",
     "intro": "호떡 & 맥주",
@@ -186,6 +186,33 @@
       "17:30-01:00",
       "17:30-01:30",
       "17:30-01:30"
+    ]
+  },
+  {
+    "id": "p025",
+    "name": "타키 세종나성점",
+    "kind": "술",
+    "genre": "포차·주점",
+    "benefit": "모찌리도후",
+    "benefitPhoto": "",
+    "storePhoto": "photos/taki-store.jpg",
+    "cond": "4만 원 이상 주문 시",
+    "intro": "철판요리 & 하이볼",
+    "tel": "",
+    "building": "디펠리체",
+    "floor": "1층 102·103호",
+    "addr": "",
+    "lat": 36.491091,
+    "lng": 127.258768,
+    "sample": false,
+    "hours": [
+      "17:00-01:00",
+      "17:00-01:00",
+      "17:00-01:00",
+      "17:00-01:00",
+      "17:00-01:00",
+      "17:00-02:00",
+      "17:00-02:00"
     ]
   },
   {
