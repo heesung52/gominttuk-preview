@@ -1,5 +1,23 @@
 [
   {
+    "id": "p018",
+    "name": "진짜문어 타코야끼",
+    "kind": "밥",
+    "genre": "일식",
+    "benefit": "타코야끼 2알",
+    "benefitPhoto": "photos/jinjjamuneo-takoyaki-2al.jpg",
+    "storePhoto": "photos/jinjjamuneo-store.jpg",
+    "cond": "타코야끼 2곽 구매 시",
+    "intro": "진짜 문어가 들어간 타코야끼",
+    "tel": "",
+    "building": "세종가로수길",
+    "floor": "1층 B139호",
+    "addr": "",
+    "lat": 36.483483,
+    "lng": 127.263753,
+    "sample": false
+  },
+  {
     "id": "p002",
     "name": "달빛포차",
     "kind": "술",
