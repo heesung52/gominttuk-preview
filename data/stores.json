@@ -243,6 +243,33 @@
     ]
   },
   {
+    "id": "p027",
+    "name": "범",
+    "kind": "술",
+    "genre": "포차·주점",
+    "benefit": "모찌리도후",
+    "benefitPhoto": "photos/beom-mochiri-tofu.jpg",
+    "storePhoto": "photos/beom-store.jpg",
+    "cond": "4만 원 이상 주문 시",
+    "intro": "이자카야",
+    "tel": "",
+    "building": "센트럴타워",
+    "floor": "103호",
+    "addr": "",
+    "lat": 36.48982,
+    "lng": 127.258942,
+    "sample": false,
+    "hours": [
+      "17:00-24:00",
+      "17:00-02:00",
+      "17:00-02:00",
+      "17:00-02:00",
+      "17:00-02:00",
+      "17:00-03:00",
+      "17:00-03:00"
+    ]
+  },
+  {
     "id": "p010",
     "name": "숯불상회",
     "kind": "술",
