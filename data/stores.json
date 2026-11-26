@@ -59,7 +59,7 @@
     "kind": "술",
     "genre": "고기",
     "benefit": "껍데기 1장",
-    "benefitPhoto": "",
+    "benefitPhoto": "photos/naseong-yeontan-kkeopdegi.jpg",
     "storePhoto": "photos/naseong-yeontan-store.jpg",
     "cond": "5만 원 이상 주문 시",
     "intro": "연탄 석쇠구이 전문",
@@ -78,6 +78,33 @@
       "16:00-24:00",
       "16:00-24:00",
       "13:00-24:00"
+    ]
+  },
+  {
+    "id": "p021",
+    "name": "곱집사 세종본점",
+    "kind": "술",
+    "genre": "고기",
+    "benefit": "수제짜파게티 1개",
+    "benefitPhoto": "",
+    "storePhoto": "photos/gopjipsa-store.jpg",
+    "cond": "방문만 해도",
+    "intro": "한우곱창 · 참숯 직화구이 전문",
+    "tel": "044-868-6530",
+    "building": "세종NS타워2",
+    "floor": "1층 103·104호",
+    "addr": "",
+    "lat": 36.490244,
+    "lng": 127.258888,
+    "sample": false,
+    "hours": [
+      "16:30-01:00",
+      "16:30-01:00",
+      "16:30-01:00",
+      "16:30-01:00",
+      "16:30-01:00",
+      "16:30-01:00",
+      "16:30-01:00"
     ]
   },
   {
