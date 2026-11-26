@@ -270,6 +270,33 @@
     ]
   },
   {
+    "id": "p028",
+    "name": "스낵얌 그로서리펍 세종나성점",
+    "kind": "술",
+    "genre": "포차·주점",
+    "benefit": "프라이즈",
+    "benefitPhoto": "photos/snackyam-fries.jpg",
+    "storePhoto": "photos/snackyam-store.jpg",
+    "cond": "4만 원 이상 주문 시",
+    "intro": "와인 · 소주 · 맥주 · 하이볼 · 위스키",
+    "tel": "",
+    "building": "세종엔에스타워",
+    "floor": "3층 307~310호",
+    "addr": "",
+    "lat": 36.490561,
+    "lng": 127.258186,
+    "sample": false,
+    "hours": [
+      "",
+      "07:00-03:00",
+      "07:00-03:00",
+      "07:00-03:00",
+      "07:00-03:00",
+      "07:00-03:00",
+      "07:00-03:00"
+    ]
+  },
+  {
     "id": "p010",
     "name": "숯불상회",
     "kind": "술",
